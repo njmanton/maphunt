@@ -1,0 +1,10 @@
+<FilesMatch ".+\.(php|htm?|css|js|json)$">
+	
+	SetOutputFilter DEFLATE
+
+</FilesMatch>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^create$ /create.php [L]

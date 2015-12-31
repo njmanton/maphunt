@@ -1,0 +1,4 @@
+*.sublime*
+TODOs
+assets/js/vendor
+assets/img

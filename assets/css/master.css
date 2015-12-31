@@ -1,0 +1,26 @@
+@import url(normalize.css);
+@import url(foundation.min.css);
+@import url(foundation-icons.css);
+#map {
+  min-width: 500px;
+  min-height: 400px;
+  background-color: #dd5577; }
+
+#answers {
+  background-color: #66f;
+  min-height: 400px; }
+
+.nomap {
+  font-size: 2em;
+  font-weight: bold;
+  color: darkgrey;
+  text-align: center; }
+
+i {
+  font-size: 1.2em; }
+
+.enabled {
+  color: green; }
+
+.disabled {
+  color: red; }

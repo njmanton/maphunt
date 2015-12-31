@@ -1,0 +1,39 @@
+[
+	{
+		"title": "map1",
+		"id": 1,
+		"name": "Manor Fields",
+		"options": {
+			"allowZoom": true,
+			"maxZoom": 14,
+			"allowPan": false
+		},
+		"center": {
+			"lat": 51.4996,
+			"lng": -0.1222,
+			"zoom": 11
+		},
+		"target": {
+			"lat": 51.4549,
+			"lng": -0.22001
+		}
+	},
+	{
+		"title": "map2",
+		"id": 2,
+		"name": "Panama City",
+		"options": {
+			"allowZoom": false,
+			"allowPan": true
+		},
+		"center": {
+			"lat": 3.4421,
+			"lng": -72.2344,
+			"zoom": 9
+		},
+		"target" : {
+			"lat": 8.8417,
+			"lng": -78.9697
+		}		
+	}
+]
